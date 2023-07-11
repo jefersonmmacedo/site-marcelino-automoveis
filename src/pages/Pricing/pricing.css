@@ -1,0 +1,253 @@
+﻿.Pricing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Pricing h2 {
+    margin: 100px 20px 0px 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.Pricing h2 span {
+    color: var(--Primary);
+}
+.Pricing h4 {
+    text-align: center;
+    margin: 5px 20px;
+    color: var(--Paragraph);
+}
+
+.Pricing .image {
+    width: 900px;
+    margin: 10px 20px;
+}
+
+
+.Pricing .marketing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, var(--Delete), var(--Primary));
+    padding: 40px 20px;
+}
+
+.Pricing .marketing .imageMarketing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Pricing .marketing .imageMarketing img {
+    width: 150px;
+}
+.Pricing .marketing .textMarketing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pricing .marketing .textMarketing h3{
+    font-weight: 700;
+    text-align: center;
+    color: var(--White);
+    font-size: 28px;
+}
+
+.Pricing .marketing .textMarketing h4 {
+    text-align: center;
+    margin: 10px 0;
+    color: var(--White);
+}
+.Pricing .marketing .textMarketing a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 0;
+    color: var(--Description);
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: var(--White);
+    font-weight: 700;
+}
+
+.Pricing .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 20px;
+    margin:20px 20px 60px 20px;
+    border-radius: 20px;
+    border: 1px solid var(--Border);
+    background-color: var(--White);
+}
+.Pricing .content .infosContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Pricing .content .infosContent h5 {
+    margin: 5px;
+    color: var(--Primary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+
+.Pricing .content h4 {
+    margin: 5px 0;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    color: var(--Paragraph);
+    text-align: center;
+}
+.Pricing .content h4 span {
+    color: var(--Primary);
+}
+.Pricing .content .itensContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    flex-wrap: wrap; 
+}
+.Pricing .content .itensContent h5 {
+    margin: 5px;
+    color: var(--Paragraph);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.Pricing .content .itensContent h5 span {
+    color: var(--Primary);
+}
+
+.Pricing .content .itensContent h5 svg {
+    color: var(--Aproved);
+    font-size: 16px;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+.Pricing .future{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 20px;
+    margin:20px 20px 20px 20px;
+    border-radius: 20px;
+    background-color: var(--White);
+}
+
+.Pricing .future h4 {
+    margin: 5px 0;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    color: var(--Paragraph);
+}
+.Pricing .future h4 span {
+    color: var(--Primary);
+}
+.Pricing .future .itensContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    flex-wrap: wrap; 
+}
+.Pricing .future .itensContent h5 {
+    margin: 5px;
+    color: var(--Paragraph);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.Pricing .future .itensContent h5 svg {
+    color: var(--Gray);
+    font-size: 16px;
+    margin: 2px;
+}
+
+
+@media (max-width: 950px) {
+
+    .Pricing .image {
+        width: 100%;
+        margin: 10px 20px;
+    }
+    
+
+    .Pricing .future{
+        width: 90%;
+    }
+
+    @media (max-width: 750px) {
+        .Pricing .future{
+            width: 90%;
+        }
+        .Pricing .content{
+            width: 90%;
+        }
+    @media (max-width: 650px) {
+        .Pricing .future{
+            width: 95%;
+            padding: 10px;
+            margin: 20px 10px;
+        }
+        .Pricing .content{
+            width: 95%;
+            padding: 5px;
+            margin: 20px 10px;
+        }
+    }
+    }
+}

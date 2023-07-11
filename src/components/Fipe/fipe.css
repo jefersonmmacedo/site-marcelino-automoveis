@@ -1,0 +1,125 @@
+﻿.Fipe  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.Fipe .simulation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: var(--Primary);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 6px;
+    color: var(--White);
+    width: 100%;
+}
+
+.Fipe .simulation:hover {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.Fipe .simulation svg {
+    font-size: 40px;
+    margin: 10px 0;
+}
+.Fipe .simulation h2 {
+    font-weight: 900;
+    font-size: 32px;
+}
+.Fipe .simulation h4{
+    margin: 5px 0 20px 0;
+}
+.Fipe .simulation a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    Background-color: var(--White);
+    color: var(--Primary);
+    font-weight: 500;
+    border: none;
+    margin: 10px 0;
+    border-radius: 25px;
+    text-decoration:none;
+    font-weight: 700;
+}
+
+.Fipe .fipeValue {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: var(--Black2);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 6px;
+    color: var(--White);
+    width: 100%;
+}
+.Fipe .fipeValue:hover {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.Fipe .fipeValue svg {
+    font-size: 40px;
+    margin: 10px 0;
+}
+.Fipe .fipeValue h2 {
+    font-weight: 900;
+    font-size: 32px;
+}
+.Fipe .fipeValue h4{
+    margin: 5px 0 20px 0;
+}
+.Fipe .fipeValue a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    Background-color: var(--Primary);
+    color: var(--White);
+    font-weight: 500;
+    border: none;
+    margin: 10px 0;
+    border-radius: 25px;
+    text-decoration:none;
+    font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+    .Fipe  {
+        width: 100%;
+    }
+    
+@media (max-width: 800px) {
+
+    .Fipe  {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .Fipe .fipeValue h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .Fipe .simulation h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .Fipe .fipeValue a {
+        width: 80%;
+    }
+    .Fipe .simulation a {
+        width: 80%;
+    }
+}
+}

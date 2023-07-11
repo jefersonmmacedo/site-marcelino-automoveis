@@ -1,0 +1,40 @@
+﻿.logoBrand {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--White);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.logoBrand .image {
+    width: 50px; 
+    height: 50px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logoBrand .image img {
+    width: 100%;
+    object-fit: cover;
+}
+.logoBrand .image2 {
+    width: 50px; 
+    height: 50px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logoBrand .image2 img {
+    width: 40px;
+    object-fit: cover;
+}
+

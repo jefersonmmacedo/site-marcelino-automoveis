@@ -1,0 +1,106 @@
+.FipeCar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--White);
+    color: var(--Black);
+}
+
+.FipeCar .blockImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    background-color: var(--Primary);
+}
+
+.FipeCar .blockImage .imageBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/images/backgroundCar.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.9; */
+}
+
+.FipeCar .blockSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.FipeCar .blockSearch h3 {
+    font-weight: 600;
+    color: var(--Paragraph);
+    margin: 10px;
+}
+
+.FipeCar .blockSearch input {
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:none;
+    border-bottom: 1px solid var(--Border);
+    color: var(--Primary);
+    margin: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+
+.FipeCar .blockSearch button {
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--Primary);
+    color: var(--White);
+    margin: 10px;
+}
+
+@media(max-width:768px) {
+    .FipeCar .blockImage {
+        display: none;
+    }
+
+    .FipeCar .blockSearch {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    @media(max-width:468px) {
+        .FipeCar .blockSearch input {
+            width: 90%;
+        }
+        
+        .FipeCar .blockSearch button {
+            width: 90%;
+        }
+    }
+    
+}

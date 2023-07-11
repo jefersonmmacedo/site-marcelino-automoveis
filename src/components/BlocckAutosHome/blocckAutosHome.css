@@ -1,0 +1,16 @@
+.BlocckAutosHome {
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1105px) {
+    .BlocckAutosHome {
+        width: 100%;
+    }
+    
+}

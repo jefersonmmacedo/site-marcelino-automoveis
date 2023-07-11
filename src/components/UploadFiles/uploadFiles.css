@@ -1,0 +1,19 @@
+﻿.btnUpload2 {
+    width: 100px !important;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    background: none !important;
+    position: absolute;
+    /* margin-top: -200px !important; */
+}
+
+.btnUpload2 svg {
+    font-size: 50px;
+    margin-right: 3px;
+    color: var(--Secondary);
+    opacity: 0.7;
+}

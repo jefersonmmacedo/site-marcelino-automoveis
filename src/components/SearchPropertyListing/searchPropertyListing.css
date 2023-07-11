@@ -1,0 +1,228 @@
+﻿
+.SearchPropertyListing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 300px;
+    background-color: var(--BorderInput);
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.SearchPropertyListing .textLocation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.SearchPropertyListing .textLocation h5 {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--Gray);
+}
+
+.SearchPropertyListing .textLocation button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    Background-color: rgba(0,0,0,0.6);
+    color: var(--White);
+    font-weight: 500;
+    border: none;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+
+
+.SearchPropertyListing .search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    border-radius: 6px;
+}
+.SearchPropertyListing .search h3 {
+    display: none;
+}
+.SearchPropertyListing .search .primary {
+    width: 100%;
+}
+.SearchPropertyListing .search input {
+    width: 100%;
+    height: 100%;
+    background-color: var(--White);
+    color: var(--Paragraph);
+    padding: 10px;
+    font-weight: 700;
+    border:none;
+    border: 1px solid var(--BorderInput);
+    margin: 5px 0;
+}
+.SearchPropertyListing .search select {
+    width: 100%;
+    height: 100%;
+    background-color: var(--White);
+    color: var(--Paragraph);
+    padding: 10px;
+    font-weight: 700;
+    border:none;
+    border: 1px solid var(--BorderInput);
+    margin: 5px 0;
+}
+
+.SearchPropertyListing .search input::placeholder {
+    color: var(--Gray);
+    font-weight: 700;
+}
+.SearchPropertyListing .search button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: var(--Primary);
+    color: var(--White);
+    font-weight: 500;
+    border: none;
+    margin-top: 10px;
+}
+.SearchPropertyListing .search .range {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--White);
+    color: var(--Paragraph);
+    padding: 5px;
+    font-weight: 700;
+    border-right: 2px solid var(--BorderInput);
+}
+.SearchPropertyListing .search .text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--White);
+    color: var(--Paragraph);
+    padding: 10px 15px;
+    font-weight: 700;
+    border-right: 2px solid var(--BorderInput);
+}
+
+.SearchPropertyListing .search .range .text{
+    width: 80px;
+    border: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.SearchPropertyListing .selectButtonsStatus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.SearchPropertyListing .selectButtonsStatus button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 50%;
+    Background-color: rgba(0,0,0,0.6);
+    color: var(--White);
+    font-weight: 500;
+    border: none;
+    margin: 5px;
+}
+
+.SearchPropertyListing .selectButtonsStatus button svg {
+font-size: 16px;
+}
+.SearchPropertyListing .selectButtonsStatus .btn {
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--Primary);
+    border: 1px solid var(--Gray);
+    color: var(--White);
+    font-weight: 500;
+    border: none;
+}
+.SearchPropertyListing .selectButtonsStatus .btn2 {
+    width: 33%;
+    padding: 10px 20px;
+    Background-color: rgba(0,0,0,0.6);
+    border: 1px solid var(--Gray);
+    color: var(--White);
+    font-weight: 500;
+    border: none;
+}
+
+@media (max-width: 600px) {
+    .SearchPropertyListing {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .SearchPropertyListing .search {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        border-radius: 6px;
+        flex-wrap: wrap;
+    }
+
+    .SearchPropertyListing .search .primary {
+        width: 100%;
+        border: 1px solid var(--BorderInput);
+        margin: 0 8px;
+    }
+    .SearchPropertyListing .search input {
+        width: 48%;
+        border: 1px solid var(--BorderInput);
+        margin: 2px;
+    }
+    .SearchPropertyListing .search select {
+        width: 48%;
+        border: 1px solid var(--BorderInput);
+        margin: 2px;
+    }
+    
+    .SearchPropertyListing .search .text {
+        display: none;
+    }
+    
+    .SearchPropertyListing .search .range{
+        display: none;
+    }
+    .SearchPropertyListing .search .range .text{
+        display: none;
+    }
+
+    .SearchPropertyListing .selectButtonsStatus {
+        width: 95%;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,190 @@
+﻿.Rent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.Rent h2 {
+    margin: 20px;
+    font-weight: bold;
+
+}
+
+.Rent .itens {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.Rent .itens .block {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: var(--White);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.Rent .itens .block .image {
+    width: 100%; 
+    height: 150px;
+    border-radius: 6px 6px 0 0;
+}
+.Rent .itens .block .image img {
+    width: 100%; 
+    height: 150px;
+    border-radius: 6px 6px 0 0;
+}
+
+
+.Rent .itens .block .featured {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Primary);
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 10px;
+    padding: 10px 40px;
+}
+
+.Rent .itens .block .featured p {
+    color: var(--White);
+    font-weight: 700;
+}
+
+.Rent .itens .block .status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Secondary);
+    border-radius: 6px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+
+.Rent .itens .block .status p {
+    color: var(--White);
+    font-weight: 700;
+}
+
+.Rent .itens .block .heart {
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 215px;
+}
+
+.Rent .itens .block .heart svg {
+    color: var(--White);
+    font-size: 24px;
+    cursor: pointer;
+}
+.Rent .itens .block .heart svg:hover {
+    color: var(--Primary);
+}
+.Rent .itens .block .heart2 {
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 215px;
+}
+
+.Rent .itens .block .heart2 svg {
+    color: var(--Primary);
+    font-size: 24px;
+    cursor: pointer;
+}
+.Rent .itens .block .heart2 svg:hover {
+    color: var(--Primary);
+}
+
+
+
+.Rent .itens .block h2 {
+    color: var(--Primary);
+    font-weight: 700;
+    margin: 20px 10px 5px 10px;
+}
+.Rent .itens .block h4 {
+    color: var(--Gray);
+    margin: 0 10px;
+}
+.Rent .itens .block .icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.Rent .itens .block .icons .iconUnic {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    color: var(--Gray);
+}
+
+.Rent .itens .block .icons .iconUnic p {
+    color: var(--Paragraph);
+    font-weight: 700;
+}
+.Rent .itens .block .icons .iconUnic .simbol {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.Rent .itens .block .icons .iconUnic .simbol svg {
+    font-size: 14px;
+    margin-right: 5px;
+    color: var(--Gray);
+}
+.Rent .itens .block .icons .iconUnic .simbol img {
+    width: 14px;
+    margin-right: 3px;
+}
+
+.Rent .itens .block .pricing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: flex-start;
+}
+
+.Rent .itens .block .pricing h5 {
+    color: var(--Paragraph);
+    font-weight: 700;
+    margin: 5px 10px;
+}
+.Rent .itens .block .pricing h2 {
+    color: var(--Primary);
+    font-weight: 700;
+    margin: 0 10px;
+}
