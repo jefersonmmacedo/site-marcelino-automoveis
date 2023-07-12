@@ -63,7 +63,7 @@ export function PropertyUnicBlock({id, style}) {
                     : ""
                     }  */}
                     <div className="infosPropertyButtons">
-                        <div className="status">
+                        {/* <div className="status">
                         <a href={`/agencia/${nameSlug}`}>
                             <div className="image">
                                 <img src={autos?.avatarCompany} alt={autos?.nameCompany} />
@@ -72,15 +72,15 @@ export function PropertyUnicBlock({id, style}) {
                             <a href={`/agencia/${nameSlug}`}>
                             <p>{company !== undefined ? company.slice(0,23) : company}</p>
                             </a>
-                        </div>
+                        </div> */}
                     <div className="infosButtons">
                   
                     <div className="share">
                     <NewShareBox idAuto={autos?.id} title={autos?.title}/>
                     </div>
-                    <div className="heart2">
+                    {/* <div className="heart2">
                     <NewFavorite idAuto={autos?.id} idCompany={autos?.idCompany} page={"not"}/>
-                    </div>
+                    </div> */}
                     </div>
                     </div>
                             <div className="text">

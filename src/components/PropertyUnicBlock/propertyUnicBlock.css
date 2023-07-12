@@ -71,7 +71,7 @@
     justify-content: space-between;
     width: 100%;
     padding: 0px 5px;
-    margin-top: -40px;
+    margin-top: -20px;
     z-index:10;
 }
 
@@ -122,7 +122,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 25%;
+    width: 100%;
+    background-color: var(--Primary);
 }
 
 .PropertyUnicBlock .infosPropertyButtons .infosButtons .heart2 {
@@ -180,9 +181,13 @@ margin-top: -20px;
     
 }
 .PropertyUnicBlock .text .textInfos h4 {
-    color: var(--Paragraph);
+    color: var(--Description);
     font-weight: 700;
-    margin: 10px 5px 0px 5px;
+    margin: 25px 5px 0px 5px;
+}
+.PropertyUnicBlock .text .textInfos h4 span{
+    color: var(--Primary);
+    font-weight: 700;
 }
 .PropertyUnicBlock .text .textInfos h5 {
     display: flex;
@@ -202,7 +207,6 @@ margin-top: -20px;
     margin: 2px 5px 2px 5px; 
     font-weight: 700;
 }
-
 .PropertyUnicBlock .text .iconsBox {
     width: 100%;
     display: flex;

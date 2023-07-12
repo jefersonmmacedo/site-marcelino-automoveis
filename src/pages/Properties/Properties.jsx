@@ -92,25 +92,7 @@ export function Properties(){
                 </div>
         }
 
-
-
-                    {data?.length < 12 || data?.length === 0 ? "":
-                <div className="sentinela" id="sentinela"> 
-                         <div className="itens">          
-                         <PropertyUnicBlockLoader />
-                         <PropertyUnicBlockLoader />
-                         <PropertyUnicBlockLoader />
-                         <PropertyUnicBlockLoader />
-                         <PropertyUnicBlockLoader />
-                         <PropertyUnicBlockLoader />
-                         <PropertyUnicBlockLoader />
-                         <PropertyUnicBlockLoader />
-                        </div>  
-                        <img src={loader} alt="Gif LOader more posts" width={20}/>
-                </div>   
-                }
-
-              
+             
         </div>
             <button className="topScroll" onClick={handleTop}><FiArrowUpCircle /></button>
         </div>

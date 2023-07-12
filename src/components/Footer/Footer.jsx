@@ -345,8 +345,8 @@ export function Footer() {
                         </div>
                         <div className="sectionUnic">
                             <h3>NAVEGAÇÃO</h3>
-                                <h5><a href="/sobre">Quem somos</a></h5>
-                                <h5><a href="/imoveis/all">Imóveis</a></h5>
+                                <h5><a href="/empresa">Quem empresa</a></h5>
+                                <h5><a href="/autos">Autos</a></h5>
                                 {/* <h5><a href="/corretores">Corretores</a></h5> */}
                                 <h5><a href="/financiamento">Financiamento</a></h5>
                                 <h5><a href="/avaliacao">Avaliação</a></h5>

@@ -11,7 +11,7 @@ export function NewShareBox({idProperty, title}) {
         data={{
           text: `ckaknvalkvnnlknj`,
           img: `https://img.freepik.com/fotos-gratis/bela-praia-tropical-mar-e-mar-com-palmeira-de-coco-na-hora-do-nascer-do-sol_74190-7454.jpg?w=2000`,
-          url: `https://www.suachaveauto.com.br/auto/${idProperty}`,
+          url: `https://www.marcelinoautomoveis.com.br/auto/${idProperty}`,
           title: `${title}`,
         }}
         onClick={() => console.log("shared successfully!")}

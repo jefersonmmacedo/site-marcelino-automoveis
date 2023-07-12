@@ -61,15 +61,15 @@ export function CompanyInfo({idAuto, idCompany, nameCompany, companyPhone}) {
     function handleNewContactButton(type) {
         newContact({
         idAuto: idAuto, idCompany: idCompany, nameCompany:nameCompany, idClient: user.id, name: user.name, whatsappCompany: companyPhone, phoneCompany: companyPhone,
-        email: user.email, phone: user.phone, whatsapp: user.whatsapp, type: type, origin: "Portal", latitude, longitude,
-        link: `http://www.suachaveauto.com.br/auto/${idAuto}`})
+        email: user.email, phone: user.phone, whatsapp: user.whatsapp, type: type, origin: "Meu Site", latitude, longitude,
+        link: `http://www.marcelinoautomoveis.com.br/auto/${idAuto}`})
     }
 
     function handleNewContactModal(type) {
         newContact({
         idAuto: idAuto, idCompany: idCompany, nameCompany:nameCompany, idClient: "User Sem cadastro", name: name, whatsappCompany: companyPhone, phoneCompany: companyPhone,
-        email: email, phone: phone, whatsapp: phone, type: type, origin: "Portal", latitude, longitude,
-        link: `http://www.suachaveauto.com.br/auto/${idAuto}`})
+        email: email, phone: phone, whatsapp: phone, type: type, origin: "Meu Site", latitude, longitude,
+        link: `http://www.marcelinoautomoveis.com.br/auto/${idAuto}`})
 
         if(type === "WhatsApp") {
             setIsOpenModa(false)
