@@ -51,7 +51,7 @@ const properties = {
          <div className="each-slide-effect">
          <div className="imageTop">
            <div className="image">
-               <a href="/auto">
+               <a href={`/auto/${slider?.id}`}>
                    <img src={slider?.featuredImage} alt="" />
                </a>
            </div>
@@ -59,7 +59,7 @@ const properties = {
                    <div className="featured">
                        <p>Novo</p>
                    </div>
-                   <a href="/auto">
+                   <a href={`/auto/${slider?.id}`}>
                    <h3>{slider?.brand} <span>{slider?.model}</span></h3>
                    <h4>{slider?.version}</h4>
                    </a>
