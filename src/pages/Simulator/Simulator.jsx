@@ -9,11 +9,14 @@ import porto from "../../assets/images/financiamento/porto.png";
 import "./simulator.css";
 import {FiDollarSign} from "react-icons/fi";
 import {IoCalculatorOutline, IoCalendarOutline, IoPeopleOutline, IoBusinessOutline, IoWalletOutline, IoCarSportOutline, IoRepeatOutline, IoCalendarNumberOutline} from "react-icons/io5";
+import Navbar from "../../components/NavBarTop/Navbar";
+import { FooterSlim } from "../../components/FooterSlim/FooterSlim";
+
 
 export function Simulator() {
     return (
         <div className="Simulator">
-            <Navbar2 />
+            <Navbar />
             <div className="topImageSimulator">
                 <div className="back">
             <h1>Nós temos o auto dos seus sonhos!</h1>
@@ -151,7 +154,7 @@ export function Simulator() {
                
                 </div>
                 </div>
-                <Footer />
+                <FooterSlim />
         </div>
     )
 }

@@ -56,9 +56,16 @@ const properties = {
                </a>
            </div>
                <div className="blockSlider">
-                   <div className="featured">
-                       <p>Novo</p>
-                   </div>
+               {new Date(slider?.created_at).getDate() === new Date().getDate() &&
+                new Date(slider?.created_at).getMonth() === new Date().getMonth() &&
+                new Date(slider?.created_at).getFullYear() === new Date().getFullYear()
+                ? 
+            <div className="featured">
+                        <p>Novo</p>
+                    </div>
+                    : ""
+             }
+
                    <a href={`/auto/${slider?.id}`}>
                    <h3>{slider?.brand} <span>{slider?.model}</span></h3>
                    <h4>{slider?.version}</h4>

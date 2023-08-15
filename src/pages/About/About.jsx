@@ -7,13 +7,15 @@ import "./about.css";
 import { useEffect } from "react";
 import api from "../../services/api";
 import { useState } from "react";
+import Navbar from "../../components/NavBarTop/Navbar";
+import { FooterSlim } from "../../components/FooterSlim/FooterSlim";
 
 
 export function About() {
 
     return (
         <div className="About">
-            <Navbar2 />
+            <Navbar />
             <div className="topImageAbout">
                 <div className="back">
             <h1>Marcelino Automóveis</h1>
@@ -63,7 +65,7 @@ export function About() {
 
 
 
-                <Footer />
+                <FooterSlim />
         </div>
     )
 }

@@ -4,6 +4,8 @@ import Navbar2 from "../../components/Nav/Navbar";
 import {IoMailOpenOutline, IoCallOutline, IoPhonePortraitOutline, IoLogoWhatsapp, IoLocationOutline} from "react-icons/io5"
 import { useEffect, useState } from "react";
 import api from "../../services/api";
+import Navbar from "../../components/NavBarTop/Navbar";
+import { FooterSlim } from "../../components/FooterSlim/FooterSlim";
 
 export function Contact() {
     const idCompany = process.env.REACT_APP_CODEUSER;
@@ -24,30 +26,30 @@ export function Contact() {
 
     return (
         <div className="Contact">
-            <Navbar2/>
-                <h2>Fale conosco</h2>
-                <h4>Entre em contato conosco, estamos prontos para atendê-lo.</h4>
+            <Navbar/>
+                <h2 className="title">Fale conosco</h2>
+                <h4 className="sub">Entre em contato conosco, estamos prontos para atendê-lo.</h4>
 
             <div className="infosContact">
 
             <div className="BlocksContact">
                 <div className="blockContact">
-                        <h3><IoMailOpenOutline /> Email</h3>
-                        <h5>{company?.email}</h5>
+                        <h3 className="section"><IoMailOpenOutline /> Email</h3>
+                        <h5 className="textSection">{company?.email}</h5>
                 </div>
                 <div className="blockContact">
-                        <h3><IoCallOutline  /> Telefone</h3>
-                        <h5>{company?.phone}</h5>
+                        <h3 className="section"><IoCallOutline  /> Telefone</h3>
+                        <h5 className="textSection">{company?.phone}</h5>
                 </div>
                 <div className="blockContact">
-                    <h3><IoLogoWhatsapp /> Whatsapp </h3>
-                    <h5>{company?.textWhatsapp} - {company?.whatsapp}</h5>
-                    <h5>{company?.textWhatsapp2} - {company?.whatsapp2}</h5>
-                    <h5>{company?.textWhatsapp3} - {company?.whatsapp3}</h5>
+                    <h3 className="section"><IoLogoWhatsapp /> Whatsapp </h3>
+                    <h5 className="textSection">{company?.textWhatsapp} - {company?.whatsapp}</h5>
+                    <h5 className="textSection">{company?.textWhatsapp2} - {company?.whatsapp2}</h5>
+                    <h5 className="textSection">{company?.textWhatsapp3} - {company?.whatsapp3}</h5>
                 </div>
                 <div className="blockContact">
-                    <h3><IoLocationOutline /> Endereço </h3>
-                    <h5>{company?.road}, Nº {company?.number}, {company?.district} - {company?.city} - {company?.uf}</h5>
+                    <h3 className="section"><IoLocationOutline /> Endereço </h3>
+                    <h5 className="textSection">{company?.road}, Nº {company?.number}, {company?.district} - {company?.city} - {company?.uf}</h5>
                 </div>
             </div> 
 
@@ -58,7 +60,7 @@ export function Contact() {
 
             </div>
 
-            <Footer/>
+            <FooterSlim/>
         </div>
     )
 }

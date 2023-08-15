@@ -1,0 +1,92 @@
+
+.FooterSlim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--Black2);
+}
+.FooterSlim .top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px;
+}
+
+.FooterSlim .top .image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 0;
+  }
+  .FooterSlim .top .image a img {
+    height: 50px;
+  }
+
+
+.FooterSlim .top .icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+   }
+   .FooterSlim .top .icons .unicIconMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+    background-color: var(--White);
+    color: var(--Primary);
+    border-radius: 6px;
+    margin: 0 3px;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+   }
+
+   .FooterSlim .top .icons .unicIconMenu:hover {
+  background-color: var(--Primary);
+  color: var(--White);
+ }
+
+   .FooterSlim .copy{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--Black);
+    color: var(--White);
+    padding: 10px 40px;
+   }
+   .FooterSlim .dev img{
+    height: 35px;
+   }
+
+
+   @media(max-width:600px) {
+    .FooterSlim .top .image a img {
+      height: 30px;
+    }
+
+    .FooterSlim .copy{
+    text-align: center;
+    padding: 5px;
+    flex-direction: column;
+     }
+    .FooterSlim .copy h5{
+      margin: 10px;
+     }
+
+     .FooterSlim .dev img{
+      height: 30px;
+      margin: 10px;
+     }
+  
+   }

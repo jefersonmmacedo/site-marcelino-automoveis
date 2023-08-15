@@ -24,6 +24,8 @@ import { FaBusAlt, FaMotorcycle, FaTruckMoving } from "react-icons/fa";
 import { HiTruck } from "react-icons/hi";
 import { MdElectricCar } from "react-icons/md";
 import { BlocckAutosHome } from "../../components/BlocckAutosHome/BlocckAutosHome";
+import Navbar from "../../components/NavBarTop/Navbar";
+import { FooterSlim } from "../../components/FooterSlim/FooterSlim";
 
 export function Home() {
     const LocalCity = localStorage.getItem("suachaveautocity");
@@ -140,7 +142,7 @@ export function Home() {
 
     return (
         <div className="Home">
-            <Navbar2 />
+            <Navbar />
             <SliderHome />
             {/* <TopHeadHomeV3 /> */}
             {/* <div className="searchView">
@@ -160,7 +162,7 @@ export function Home() {
 
 
             <Finance />
-            <Footer />
+            <FooterSlim />
 
         </div>
     )

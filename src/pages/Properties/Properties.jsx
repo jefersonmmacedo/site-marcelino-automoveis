@@ -12,6 +12,8 @@ import { PropertyUnicBlock } from "../../components/PropertyUnicBlock/PropertyUn
 import { FilterPropertiesList } from "../../components/FilterPropertiesList/FilterPropertiesList";
 import { useEffect, useState } from "react";
 import api from "../../services/api";
+import Navbar from "../../components/NavBarTop/Navbar";
+import { FooterSlim } from "../../components/FooterSlim/FooterSlim";
 
 
 export function Properties(){
@@ -56,7 +58,7 @@ export function Properties(){
 
     return (
         <div className="Properties">
-        <Navbar2 />
+        <Navbar />
         <div className="listPage">
         <div className="ListProperty">
         <div className="topList">
@@ -96,7 +98,7 @@ export function Properties(){
         </div>
             <button className="topScroll" onClick={handleTop}><FiArrowUpCircle /></button>
         </div>
-        <Footer />
+        <FooterSlim />
         </div>
     )
 }

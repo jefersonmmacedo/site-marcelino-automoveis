@@ -4,22 +4,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 60px 0px 0px 0px;
+    padding: 120px 0px 0px 0px;
 }
 
-.Contact h2 {
+.Contact .title {
     margin-top: 40px;
     font-weight: 700;
     color: var(--Primary);
     text-align: center;
 }
 
-.Contact h2 span {
+.Contact .title span {
     color: var(--Primary);
 }
 
 
-.Contact h4 {
+.Contact .sub {
     color: var(--Paragraph);
     margin:10px;
     text-align: center;
@@ -109,7 +109,7 @@
     background-color: var(--White);
 }
 
-.Contact .BlocksContact .blockContact h3 {
+.Contact .BlocksContact .blockContact .section {
     display: flex;
     flex-direction: row;
     align-itens: flex-end;
@@ -119,14 +119,14 @@
     text-align: center;
 }
 
-.Contact .BlocksContact .blockContact h3 svg {
+.Contact .BlocksContact .blockContact .section svg {
     margin-right: 5px;
     margin-top: -3px;
     color: var(--Primary);
     font-size: 24px;
 }
 
-.Contact .BlocksContact .blockContact h5 {
+.Contact .BlocksContact .blockContact .textSection {
     display: flex;
     flex-direction: row;
     align-itens: center;
@@ -180,14 +180,10 @@
             flex-direction: column;
             display: flex;
             margin: 20px 0px;
-    }
-
-    
-
-        .Contact .infosContact {
             width: 100%;
-            padding: 20px;
+            padding: 10px;
     }
+
     
     .Contact .infosContact .inputsContact {
         width: 100%;
@@ -198,6 +194,26 @@
     
     .Contact .infosContact .inputsContact input {
         width: 98%;
+    }
+
+    .Contact .infosContact .BlocksContact {
+        width:90%;
+        margin: 20px auto;
+        display: flex;
+        text-align: center;
+        align-itens: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+    .Contact .infosContact .BlocksContact .blockContact {
+        width:90%;
+        margin: 10px auto;
+    }
+    .Contact .infosContact .map {
+        width:90%;
+        margin: 0px auto;
     }
     }
 }
