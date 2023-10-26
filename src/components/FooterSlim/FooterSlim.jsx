@@ -1,5 +1,5 @@
 import { IoLogoFacebook, IoLogoInstagram, IoLogoLinkedin } from "react-icons/io5";
-import LogoImg from '../../assets/images/Logo2.png'
+import LogoImg from '../../assets/images/Logo.png'
 import logo from '../../assets/images/LogoSuaChave2.png';
 import "./footerSlim.css"
 import api from "../../services/api";

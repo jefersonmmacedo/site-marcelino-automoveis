@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import {IoSpeedometerOutline, IoPersonOutline, IoHeart, IoNotificationsOutline, IoLogOutOutline, IoChatboxEllipsesOutline,
         IoHomeOutline, IoLaptopOutline, IoCalendarOutline, IoOptionsOutline, IoFunnelOutline, IoSearchOutline, IoQrCodeOutline, IoMailOutline, IoPhonePortraitOutline, IoLogoInstagram, IoLogoWhatsapp, IoLogoFacebook, IoLogoLinkedin } from 'react-icons/io5';
-        import LogoImg from '../../assets/images/Logo2.png'
+        import LogoImg from '../../assets/images/Logo.png'
 import api from '../../services/api';
 
 const UlAdm = styled.ul`
@@ -19,7 +19,7 @@ const UlAdm = styled.ul`
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 70px;
+    height: 55px;
     padding: 10px 40px;
  }
  .menu {
@@ -29,8 +29,8 @@ const UlAdm = styled.ul`
     justify-content: space-between;
     width: 100%;
     padding: 0 20px;
-    border-top: 1px solid var(--BorderHover);
-    height: 50px;
+    border-top: 1px solid var(--Gray);
+    height: 45px;
 
  }
  .menu .itensMenu {
@@ -110,7 +110,7 @@ const UlAdm = styled.ul`
     justify-content: center;
     margin: 5px;
     padding: 0px 10px;
-    border-left: 1px solid var(--Border);
+    border-left: 1px solid var(--Gray);
 }
 
 .contact .contactUnic svg {
@@ -123,7 +123,7 @@ const UlAdm = styled.ul`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    color: var(--BorderHover);
+    color: var(--Description);
 }
 
 .contact .contactUnic .text h4 {
@@ -131,7 +131,7 @@ const UlAdm = styled.ul`
 }
 .contact .contactUnic .text h5 {
   font-weight: 700;
-  color: var(--BorderHover);
+  color: var(--Description);
 }
 .contact .contactUnic .text h4:hover {
  cursor: pointer;
@@ -155,7 +155,7 @@ const UlAdm = styled.ul`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    color: var(--BorderHover);
+    color: var(--Description);
 }
 .contact .contactUnic2 .text h4 {
   font-weight: 600;
@@ -163,7 +163,7 @@ const UlAdm = styled.ul`
 
 .contact .contactUnic2 .text h5 {
   font-weight: 700;
-  color: var(--BorderHover);
+  color: var(--Description);
 }
 
   li {
@@ -184,7 +184,7 @@ const UlAdm = styled.ul`
     justify-content: center;
     text-decoration: none;
     font-weight: 600;
-    color: var(--BorderHover);
+    color: var(--Description);
     padding: 5px;
     border-radius: 6px;
     margin-left:;
@@ -246,7 +246,7 @@ const UlAdm = styled.ul`
   justify-content: flex-start;
   width: 100%;
   padding: 0 20px;
-  border-top: 1px solid var(--Border);
+  border-top: 1px solid var(--Gray);
   height: 100%;
 
 }
@@ -279,7 +279,7 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 padding:5px;
-background-color: var(--BorderHover);
+background-color: var(--Description);
 color: var(--Primary);
 border-radius: 6px;
 margin: 3px 5px;
@@ -343,7 +343,7 @@ margin: 0 10px 0 0;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  color: var(--BorderHover);
+  color: var(--Description);
 }
 
 .contact .contactUnic2 {
@@ -365,7 +365,7 @@ margin: 0 5px 0 0;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  color: var(--BorderHover);
+  color: var(--Description);
 }
 
 
@@ -387,7 +387,7 @@ li a{
   justify-content: center;
   text-decoration: none;
   font-weight: 600;
-  color: var(--BorderHover);
+  color: var(--Description);
   padding: 7px 0px;
   border-radius: 6px;
   margin-left:;

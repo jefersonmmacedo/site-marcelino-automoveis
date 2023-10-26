@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: var(--Black2);
+    background-color: var(--BorderInput2);
 }
 .FooterSlim .top{
     display: flex;
@@ -61,7 +61,7 @@
     justify-content:space-between;
     flex-direction: row;
     width: 100%;
-    background-color: var(--Black);
+    background-color: var(--Primary);
     color: var(--White);
     padding: 10px 40px;
    }

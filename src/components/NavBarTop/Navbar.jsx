@@ -1,24 +1,24 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
-import LogoImg from '../../assets/images/Logo2.png'
+import LogoImg from '../../assets/images/Logo.png'
 import { AuthContext } from '../../contexts/Auth';
 
 
 const Nav = styled.nav`
   width: 100%;
-  height: 120px;
+  height: 100px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   position: fixed;
   top: 0;
   z-index: 97;
-  background-color: rgba(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(4px);
   font-size: 14px;
   color: var(--Description);
-  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 3px 1px rgba(255, 255, 255, 0.2);
 
 .logotipo {
     display: none;
