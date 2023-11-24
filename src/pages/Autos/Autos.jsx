@@ -14,6 +14,8 @@ import { useParams } from "react-router-dom";
 import { useFetch } from "../../hooks/useFetch";
 import { NewShare } from "../../components/NewShare/NewShare";
 import { FaMotorcycle } from "react-icons/fa";
+import Navbar from "../../components/NavBarTop/Navbar";
+import { FooterSlim } from "../../components/FooterSlim/FooterSlim";
 
 
 export function Autos() {
@@ -45,7 +47,7 @@ export function Autos() {
     const textReferência = `${Referência}/${new Date(data[0]?.created_at).getFullYear()}`
     return (
        <div className="Autos">
-        <Navbar2 />
+        <Navbar />
         <div className="main">
           <SliderImages images={data[0]?.images} id={data[0]?.id}/>
           <div className="data">
@@ -239,7 +241,7 @@ export function Autos() {
 
                 </div>
         </div>
-        <Footer />
+        <FooterSlim />
 
        </div>
       )

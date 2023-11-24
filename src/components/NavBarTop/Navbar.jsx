@@ -7,18 +7,18 @@ import { AuthContext } from '../../contexts/Auth';
 
 const Nav = styled.nav`
   width: 100%;
-  height: 100px;
+  height: 130px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   position: fixed;
   top: 0;
   z-index: 97;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255);
   backdrop-filter: blur(4px);
   font-size: 14px;
   color: var(--Description);
-  box-shadow: 1px 1px 3px 1px rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
 
 .logotipo {
     display: none;
@@ -33,6 +33,7 @@ const Nav = styled.nav`
     margin: 20px 0;
     width: 100%;
     justify-content: center;
+    background-color: rgba(255, 255, 255);
   }
 
 .logotipo {
@@ -46,10 +47,10 @@ const Nav = styled.nav`
 
 
   @media (max-width: 650px) {
-
+    background-color: rgba(255, 255, 255;
 
   @media (max-width: 600px) {
-
+    background-color: rgba(255, 255, 255;
 
   }
   }

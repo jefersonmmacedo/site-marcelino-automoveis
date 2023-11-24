@@ -7,6 +7,32 @@
     margin: 20px auto;
     flex-wrap: wrap;
 }
+.BlocckAutosHome .buttonCars {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+.BlocckAutosHome .buttonCars a {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--Primary);
+    color: var(--White);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.BlocckAutosHome .buttonCars a svg {
+    margin-left: 3px;
+}
 
 @media (max-width: 1105px) {
     .BlocckAutosHome {

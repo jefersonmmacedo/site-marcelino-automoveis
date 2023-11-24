@@ -34,7 +34,7 @@ const buttonStyle = {
   background: 'rgba(237,50,55, 0.5)',
   color: '#fff',
   border: '0px',
-  margin: '10px'
+  margin: '100px 10px 10px 10px'
 };
 
 const properties = {

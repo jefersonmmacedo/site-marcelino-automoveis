@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar2 from "../../components/Nav/Navbar";
 import "./fipeCar.css";
 import { mask as masker, unMask } from "remask";
+import Navbar from "../../components/NavBarTop/Navbar";
 
 export function FipeCar() {
 
@@ -26,7 +27,7 @@ export function FipeCar() {
 
     return (
         <div className="FipeCar">
-            <Navbar2 />
+            <Navbar />
         <div className="blockImage">
             <div className="imageBlock"></div>
         </div>

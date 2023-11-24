@@ -19,8 +19,8 @@ const UlAdm = styled.ul`
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 55px;
-    padding: 10px 40px;
+    height: 80px;
+    padding: 10px 100px;
  }
  .menu {
     display: flex;
@@ -28,9 +28,9 @@ const UlAdm = styled.ul`
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 0 20px;
+    padding: 10px 100px;
     border-top: 1px solid var(--Gray);
-    height: 45px;
+    height: 50px;
 
  }
  .menu .itensMenu {
@@ -94,7 +94,7 @@ const UlAdm = styled.ul`
     padding: 15px 0;
   }
   .top .logo a img {
-    height: 40px;
+    height: 60px;
   }
 
   .contact {
@@ -225,7 +225,7 @@ const UlAdm = styled.ul`
     width: 350px;
     padding-top: 1.5rem;
     transition: transform 0.3s ease-in-out;
-    background-color: rgba(0,0,0);
+    background-color: rgba(255,255,255);
     z-index: 98;
 
 
@@ -238,6 +238,7 @@ const UlAdm = styled.ul`
   width: 100%;
   height: 300px;
   padding: 0px 20px;
+  background-color: rgba(255,255,255);
 }
 .menu {
   display: flex;
@@ -279,7 +280,7 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 padding:5px;
-background-color: var(--Description);
+background-color: var(--BorderInput);
 color: var(--Primary);
 border-radius: 6px;
 margin: 3px 5px;
@@ -312,7 +313,7 @@ margin-right: 5px;
   padding: 15px 0;
 }
 .top .logo a img {
-  height: 30px;
+  height: 50px;
 }
 
 .contact {

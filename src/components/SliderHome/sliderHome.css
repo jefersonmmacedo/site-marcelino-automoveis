@@ -1,5 +1,6 @@
 ﻿
 .each-slide-effect .imageTop {
+  padding-top: 260px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -33,6 +34,7 @@
   padding: 20px;
   z-index: 1;
   position: absolute;
+  margin-top: -150px;
 }
 .each-slide-effect .imageTop .blockSlider .featured {
   display: flex;
@@ -182,6 +184,18 @@
 
 
 
+@media (max-width: 900px) {
+  .each-slide-effect .imageTop {
+    padding-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh; /* You must set a specified height */
+  }
+
+
 @media (max-width: 600px) {
 
   .each-slide-effect .imageTop {
@@ -194,7 +208,7 @@
   }
   .each-slide-effect .imageTop .blockSlider {
     width: 500px;
-      margin: 10px;
+      margin: 10px 10px 30px 10px;
       background-color: rgba(0, 0, 0, 0.8);
   }
 @media (max-width: 530px) {
@@ -226,5 +240,6 @@
           }
         }
   }
+}
 }
 }

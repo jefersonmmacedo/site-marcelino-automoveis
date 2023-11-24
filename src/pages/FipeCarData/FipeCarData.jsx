@@ -5,6 +5,7 @@ import api from "../../services/api";
 import Navbar2 from "../../components/Nav/Navbar";
 import { mask as masker, unMask } from "remask";
 import apiFipe from "../../services/apiFipe";
+import Navbar from "../../components/NavBarTop/Navbar";
 
 export function FipeCarData() {
     const {placa} = useParams()
@@ -65,7 +66,7 @@ export function FipeCarData() {
 
     return (
         <div className="FipeCarData">
-            <Navbar2 />
+            <Navbar />
             {failure === 1 && carsFipe?.msg === "Limite diário de consultas atingido. Por favor entre em contato com o suporte através do contato@placafipe.com.br. Limite diário: 50 consultas" ?
             ""
             : carsFipe?.msg?.includes("Veículo não encontrado para a placa") ? ""
