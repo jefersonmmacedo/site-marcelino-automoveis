@@ -524,7 +524,7 @@ const RightNav2 = ({ open }) => {
                 <a className="unicIconMenu" href={company?.linkedin} target='_Blank'><IoLogoLinkedin /></a>
             }
             </div>
-           <button className="contactWhatsapp" onClick={() => handleMail(company?.email)} ><IoMailOutline /> {company?.email}</button>
+           {/* <button className="contactWhatsapp" onClick={() => handleMail(company?.email)} ><IoMailOutline /> {company?.email}</button> */}
           </div>       
       </div>
 

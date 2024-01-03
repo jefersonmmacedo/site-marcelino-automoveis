@@ -4,15 +4,15 @@ import Burger from './Burger';
 import LogoImg from '../../assets/images/Logo.png'
 import { AuthContext } from '../../contexts/Auth';
 
-
+  // position: fixed;
+  // top: 0;
+  // z-index: 97;
 const Nav = styled.nav`
   width: 100%;
   height: 130px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  position: fixed;
-  top: 0;
   z-index: 97;
   background-color: rgba(255, 255, 255);
   backdrop-filter: blur(4px);

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-baseURL: 'https://suachaveauto-api-private-c50ca254ab3a.herokuapp.com/'
+baseURL: 'https://api-suachaveauto-private.vercel.app/'
 // baseURL: 'http://localhost:3333/'
 });
 

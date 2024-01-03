@@ -28,6 +28,7 @@ export function FipeCar() {
     return (
         <div className="FipeCar">
             <Navbar />
+            <div className="blockFipe">
         <div className="blockImage">
             <div className="imageBlock"></div>
         </div>
@@ -36,6 +37,7 @@ export function FipeCar() {
             <input type="text" placeholder="Digite a placa" value={placa?.toUpperCase()} onChange={ChangeMaskPlate}/>
             <button onClick={handleRedirect}>Consultar</button>
         </div>
+            </div>
     </div>
     )
 }
